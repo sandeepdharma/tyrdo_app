@@ -1,0 +1,165 @@
+.About-container {
+    padding: 10% 3%;
+    font-size: 30px;
+
+    .about-title-container {
+        text-align: start;
+        font-size: 0.5em;
+
+        .about-title {
+            margin-top: 0%;
+        }
+
+        .about-matter {
+            line-height: 30px;
+            color: #717173;
+            margin-bottom: 0%;
+        }
+    }
+
+    .about-progress-container {
+        text-align: start;
+
+        .about-progress-title {
+            margin: 5% 0%;
+            font-size: 0.7em;
+        }
+
+        .about-progress-outer-container {
+
+            .each-progress-container {
+
+                .progress-about {
+                    font-size: 0.5em;
+                    margin-bottom: 0%;
+                }
+
+
+
+                .ant-progress {
+                    margin: 0%;
+                }
+
+                .ant-progress-inner {
+                    border-radius: 0%;
+                    // height: 20px;
+                }
+
+                .ant-progress-bg {
+
+                    border-radius: 0%;
+                }
+            }
+        }
+    }
+
+    .about-image-container {
+        height: auto;
+        padding: 5% 0%;
+
+        .about-image {
+            border-radius: 5px;
+            width: 95%;
+        }
+    }
+
+}
+
+@media only screen and (min-width:425px) {
+    .About-container {
+        padding: 15%;
+
+        .about-title-container {
+            padding-bottom: 5%;
+        }
+
+        .about-progress-container {
+            .about-progress-title {
+                font-size: 0.8em;
+            }
+        }
+
+        .about-image-container {
+            padding: 15% 3%;
+        }
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .About-container {
+        padding: 15% 5%;
+
+        .about-title-container {
+            .about-title {
+                font-size: 4em;
+                margin-bottom: 2%;
+            }
+
+            padding-bottom: 5%;
+        }
+
+        .about-progress-container {
+            .about-progress-title {
+                font-size: 1.2em;
+            }
+        }
+
+        .about-image-container {
+            padding: 7% 3%;
+        }
+    }
+}
+
+
+@media only screen and (min-width:1024px) {
+    .About-container {
+        padding: 15% 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .about-matter-container {
+            width: 55%;
+
+            .about-title-container {
+                .about-title {
+                    font-size: 4em;
+                    margin-bottom: 2%;
+                }
+
+                padding-bottom: 5%;
+            }
+
+            .about-progress-container {
+                .about-progress-title {
+                    font-size: 1.2em;
+                }
+            }
+        }
+
+        .about-image-container {
+            width: 45%;
+            padding: 0% 3%;
+            padding-right: 0%;
+        }
+    }
+}
+
+
+@media only screen and (min-width:1366px) {
+    .About-container {
+        padding: 10% 5%;
+
+        .about-matter-container {
+            width: 55%;
+        }
+
+        .about-image-container {
+            width: 40%;
+            padding: 0%;
+            .about-image{
+                width: 100%;
+            }
+        }
+    }
+}

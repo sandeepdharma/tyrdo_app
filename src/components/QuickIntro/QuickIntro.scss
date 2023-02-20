@@ -1,0 +1,44 @@
+.QuickIntro-container {
+    padding: 4%;
+
+    .quickintro-inner-container {
+        background-image: url('https://trydo.rainbowit.net/assets/images/bg/bg-image-26.jpg');
+        background-size: cover;
+        height: 100%;
+        padding: 12%;
+border-radius: 15px;
+        .play-button {
+            text-align: center;
+            // margin: auto;
+            height: 80px;
+            width: 80px;
+            color: #ffffff;
+            // background-color:#f61b10;
+            border-radius: 30px;
+            border-width: 0px;
+        }
+    }
+
+}
+@media only screen and (min-width:425px){
+    .QuickIntro-container{
+        padding: 4% 16%;
+    }
+}
+@media only screen and (min-width:768px){
+    .QuickIntro-container{
+        padding: 4%;
+        .quickintro-inner-container{
+            padding: 16%;
+            border-radius: 5px;
+        }
+    }
+}
+@media only screen and (min-width:1366px){
+    .QuickIntro-container{
+        padding: 4%;
+        .quickintro-inner-container{
+            padding: 20%;
+        }
+    }
+}

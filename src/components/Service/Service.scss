@@ -1,0 +1,132 @@
+.Service-container {
+    padding: 5% 3%;
+
+    .service-title-container {
+
+        .service-title {
+            margin-top: 0%;
+        }
+
+        .service-sub-title {
+            margin: auto;
+            line-height: 30px;
+        }
+
+    }
+
+    .service-cards-container {
+        padding: 10% 0%;
+.each-service-card-container:hover{
+    background-image: linear-gradient(90deg, #f61b10, #ef0963);    color: white;
+    .card-icon{
+        color: white;
+    }
+}
+        .each-service-card-container {
+            border-radius: 14px;
+            margin: 6% 0%;
+            color: white;
+            padding: 7% 3%;
+            background-image: linear-gradient(90deg, #f61b10, #ef0963);
+
+            .card-icon {
+                font-size: 45px;
+            }
+
+            .card-type {
+                font-size: 20px;
+            }
+
+            .card-about {
+                line-height: 30px;
+
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:425px) {
+    .Service-container {
+        padding: 5% 15%;
+    }
+}
+
+
+@media only screen and (min-width:768px) {
+    .Service-container {
+        padding: 5%;
+
+        .service-title-container {
+            .service-title {
+                font-size: 50px;
+            }
+        }
+
+        .service-cards-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: space-between;
+
+            .each-service-card-container {
+                width: 40%;
+                margin: 2% 0%;
+                padding: 4% 3%;
+                background-color: #f6f6f6;
+                background-image: none;
+                color: black;
+
+                .card-icon {
+                    color: #ef0963;
+                }
+
+                .card-type {
+                    font-size: 22px;
+                    font-weight: bold;
+                }
+
+                .card-about {
+                    margin-top: 0%;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .Service-container {
+        .service-title-container {
+            width: 60%;
+            margin: auto;
+        }
+
+        .service-cards-container {
+            padding: 3% 0%;
+
+            .each-service-card-container {
+                width: 25%;
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width:1366px) {
+    .Service-container {
+        .service-title-container {
+            .service-title {
+                font-size: 50px;
+            }
+        }
+
+        .service-cards-container {
+            padding: 3% 0%;
+
+            .each-service-card-container {
+                .card-type {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
